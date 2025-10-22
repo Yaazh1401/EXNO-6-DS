@@ -168,6 +168,8 @@ sns.violinplot(x='tip', y='day', data=tip, palette='rainbow')
 
 ```
 
+<img width="897" height="614" alt="image" src="https://github.com/user-attachments/assets/8509d48b-466c-499a-8d34-c4bc0b11ba8d" />
+
 
 ```
 sns.kdeplot(data=tips, x='total_bill', hue='time', multiple='layer', linewidth=3, palette='Set2', alpha=0.8)
@@ -175,15 +177,27 @@ sns.kdeplot(data=tips, x='total_bill', hue='time', multiple='layer', linewidth=3
 ```
 
 
+<img width="920" height="602" alt="image" src="https://github.com/user-attachments/assets/bba6106d-89b9-4037-bbb1-f3b9a791b7e9" />
+
+
 ```
 sns.kdeplot(data=tips, x='total_bill', hue='time', multiple='stack', linewidth=3, palette='Set3', alpha=0.8)
 
 ```
 
+
+<img width="926" height="605" alt="image" src="https://github.com/user-attachments/assets/ee360eb0-ce15-4fd7-9376-21022c1f0969" />
+
+
+
 ```
 sns.kdeplot(data=tips, x='total_bill', hue='time', multiple='fill', linewidth=3, palette='Set1', alpha=0.8)
 
 ```
+
+
+<img width="892" height="608" alt="image" src="https://github.com/user-attachments/assets/682a8434-c014-43b8-aaba-a11a659ff52b" />
+
 
 ```
 import seaborn as sns
@@ -194,10 +208,15 @@ sns.heatmap(corr, annot=True, cmap='YlGnBu')
 
 ```
 
+
+<img width="831" height="605" alt="image" src="https://github.com/user-attachments/assets/59d5cda2-b4b7-4f87-a30e-f9a620793c63" />
+
+
 ```
 sns.heatmap(corr,cmap="YlGnBu")
 ```
 
+<img width="852" height="577" alt="image" src="https://github.com/user-attachments/assets/db09a530-7884-447e-96ea-be8ec187bda0" />
 
 
 
